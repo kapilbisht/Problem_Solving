@@ -11,10 +11,6 @@
 # 1 <= N <= 10 ^ 9
 
 # Solution
-
-import sys
-
-
 def sum(n, k):
     d = n // k
     return k * (d * (d + 1)) // 2
